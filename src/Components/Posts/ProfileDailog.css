@@ -1,0 +1,58 @@
+.MuiMenu-paper {
+  padding: 10px;
+}
+.user-info-menu {
+  display: flex;
+  width: 100%;
+}
+.user-info-av-bt{
+  display: flex;
+  justify-content: space-between;
+}
+.user-info-avatar{
+  margin: 5px;
+}
+
+.user-info-av-bt > button {
+  margin: 10px;
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #1da1f2;
+  border: 1px solid #1da1f2;
+  background-color: rgb(25, 39, 52);
+  cursor: pointer;
+
+}
+
+.user-info-details {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  outline: none;
+
+}
+.user-info-details > h6 {
+  font-size: 16px;
+}
+.user-info-details > span {
+  font-size: 13px;
+  color: gray;
+}
+.user-info-details > p {
+  font-size: 15px;
+  padding: 10px 2px;
+}
+
+.user-info-followers {
+  display: flex;
+  justify-content: space-between;
+}
+.user-info-followers > h6 {
+  font-size: 15px;
+}
+.user-info-followers > h6 > span {
+    color: gray;
+    font-weight: 500;
+}
+  

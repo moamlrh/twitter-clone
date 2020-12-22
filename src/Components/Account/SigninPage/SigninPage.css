@@ -1,0 +1,272 @@
+.moaml-link{
+  color: aqua;
+  text-decoration: none;
+  font-weight: 900;
+  margin-left: 15px;
+}
+.signin-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: rgb(21, 32, 43);
+  overflow-y: scroll;
+}
+/* left-side-info */
+.login-left-side {
+  flex: 1;
+  display: flex;
+  background-color: rgb(113, 201, 248);
+  justify-content: center;
+  background-image: url("tbg1.png");
+  background-size: 1000px 900px;
+  background-repeat: no-repeat;
+}
+.left-side-info {
+  display: flex;
+  align-items: center;
+}
+.left-side-info > div > h3 {
+  display: flex;
+  margin-top: 20px;
+  color: honeydew;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.left-side-info > div > h3 > span {
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+}
+.login-info-icons {
+  font-size: 30px !important;
+  border-radius: 100% !important;
+}
+
+/*  */
+.login-right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-side-inputs {
+  margin: 20px;
+  margin-top: -10px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.right-side-inputs > * {
+  margin-right: 10px !important;
+}
+.right-side-inputs > .login-btn {
+  color: rgb(29, 161, 242) !important;
+  border-radius: 30px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid rgb(29, 161, 242);
+  margin-top: 25px;
+}
+/* right-side-happen */
+.right-side-happen {
+  width: 80%;
+  padding: 20px;
+  max-width: 400px;
+  min-width: 350px;
+}
+.right-side-happen > .logo {
+  font-size: 50px !important;
+  color: white !important;
+  margin-bottom: 20px;
+}
+.right-side-happen > p {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 50px;
+  color: white;
+}
+.right-side-happen > h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: white;
+}
+.happen-buttons {
+  display: flex;
+  flex-direction: column;
+}
+.happen-buttons > .signin {
+  color: white !important;
+  background-color: rgb(29, 161, 242) !important;
+  border-radius: 30px !important;
+  font-weight: 900;
+  margin-bottom: 10px;
+  font-size: 13px !important;
+}
+
+.happen-buttons > .signup {
+  color: rgb(29, 161, 242) !important;
+  border-radius: 30px !important;
+  font-weight: 900;
+  border-color: rgb(29, 161, 242);
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.happen-buttons > .signup:hover {
+  background-color: rgba(29, 160, 242, 0.107);
+}
+
+.right-side-footer-btn {
+  display: none;
+}
+/* material ui classes */
+
+.signin-page .MuiFilledInput-input {
+  background-color: rgb(25, 39, 52) !important ;
+  color: white !important;
+  font-weight: 600 !important;
+  padding-top: 30px !important;
+  border-bottom: 3px solid rgb(143, 143, 143) !important;
+}
+.signin-page .MuiInputLabel-root {
+  font-size: 19px !important;
+  min-width: 250px !important;
+  color: rgb(108, 153, 162) !important;
+}
+.signin-page .Mui-focused {
+  color: rgb(61, 113, 255) !important;
+}
+.signin-page .MuiFormHelperText-root {
+  color: rgb(61, 113, 255) !important;
+  cursor: pointer;
+}
+.signin-page .MuiFormHelperText-root:hover {
+  text-decoration: underline;
+}
+@media all and (min-height: 800px) {
+  .signin-page {
+    display: flex;
+    justify-items: center;
+  }
+  .login-left-side {
+    margin-top: -200px;
+  }
+}
+@media all and (max-width: 800px) {
+  .signin-page {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* right */
+  .right-side-inputs {
+    display: none;
+  }
+  .login-right-side {
+    justify-content: center;
+  }
+  .right-side-happen {
+    max-width: 200px;
+  }
+  /* left */
+  .login-left-side {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .left-side-info {
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-image: url("tbg1.png");
+    background-color: rgb(129, 211, 255);
+    width: 100%;
+    justify-content: center;
+    padding: 40px 0px;
+  }
+  /* .left-side-info > div {
+  } */
+  .right-side-footer-btn {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    max-width: 500px;
+    margin: 20px 0px;
+  }
+  .right-side-footer-btn > .signup-footer {
+    color: rgb(29, 161, 242) !important;
+    border-radius: 30px !important;
+    font-weight: 900;
+    border-color: rgb(29, 161, 242);
+    font-size: 13px;
+    padding: 5px 50px;
+  }
+  .right-side-footer-btn > .signin-footer {
+    color: white !important;
+    background-color: rgb(29, 161, 242) !important;
+    border-radius: 30px !important;
+    font-weight: 900;
+    font-size: 13px !important;
+    padding: 5px 50px;
+  }
+}
+@media all and (max-height: 500px) {
+  .right-side-inputs {
+    display: none;
+  }
+  .right-side-happen > p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .left-side-info {
+    margin: 0px;
+  }
+  .right-side-footer-btn {
+    margin: 0px;
+  }
+}
+@media all and (max-height: 500px) and (max-width: 500px) {
+  .right-side-happen {
+    margin-left: 20px;
+  }
+  .happen-buttons {
+    align-items: center;
+    width: 100%;
+  }
+  .happen-buttons > * {
+    width: 50%;
+    margin: auto;
+  }
+  .right-side-happen > p {
+    font-size: 15px;
+  }
+  .right-side-happen > h5 {
+    font-size: 15px;
+  }
+  .left-side-info {
+    height: 70px;
+  }
+  .left-side-info > div > h3 {
+    font-size: 15px !important;
+  }
+  .left-side-info .login-info-icons {
+    font-size: 18px !important;
+  }
+  .right-side-footer-btn > * {
+    font-size: 12px !important;
+  }
+}
+@media all and (max-height: 500px) and (min-width: 800px) {
+  .login-right-side {
+    justify-content: center;
+  }
+}
+@media all and (min-height: 800px) {
+  .right-side-happen-container {
+    margin-bottom: calc(100vh / 3);
+  }
+  .login-right-side {
+    justify-content: space-between;
+  }
+}

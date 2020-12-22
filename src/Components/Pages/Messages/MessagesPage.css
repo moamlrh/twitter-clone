@@ -1,0 +1,94 @@
+body{
+    overflow-x: hidden;
+}
+.messages-page {
+  background-color: rgb(21, 32, 43);
+  border: 1px solid rgba(170, 170, 170, 0.329) ;
+  border-top: 0;
+  height: 100%;
+  margin-bottom: 30px;
+}
+.message-header {
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.212);
+  font-weight: 800;
+  align-items: center;
+  top: 0 !important;
+  position: sticky !important;
+  background-color: rgb(21, 32, 43);
+  z-index: 1;
+}
+.message-header > h3 {
+  flex: 1;
+}
+.message-header > .msg-header-icon {
+  cursor: pointer;
+  color: #1da1f2;
+}
+.message-search {
+  position: relative;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  margin: 2px 15px;
+}
+.msg-search-icon {
+  position: absolute;
+  color: #1da1f2;
+  color: grey;
+  margin-left: 15px;
+}
+.message-search > input {
+  width: 100%;
+  border-radius: 30px;
+  background-color: rgb(37, 51, 65);
+  color: white;
+  font-size: 17px;
+  padding: 10px;
+  padding-left: 50px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  outline: none;
+}
+.message-search > input:focus {
+  background-color: rgb(19, 29, 39);
+  border: 1px solid #1da1f2;
+}
+
+/*  Message User Component */
+
+.msg-user {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.212);
+  border-top: 1px solid rgba(255, 255, 255, 0.212);
+}
+.msg-user:hover {
+  background-color: rgba(100, 100, 100, 0.1);
+  cursor: pointer;
+}
+.msg-use-avatar {
+  margin-right: 10px;
+}
+.msg-user-info {
+  width: 100%;
+}
+.msg-user-info-header {
+  display: flex;
+  margin: 5px 0px;
+}
+.msg-user-info-header > h4 {
+  margin-right: 5px;
+  font-size: 15px;
+}
+.msg-user-info-header > span {
+  flex: 1;
+  font-weight: 100;
+  color: gray;
+}
+.msg-user-last-msg {
+}
+.msg-user-last-msg > p {
+  color: gray;
+}

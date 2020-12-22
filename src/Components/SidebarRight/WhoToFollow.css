@@ -1,0 +1,68 @@
+.happening-who-to-follow {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  /* height: 100vh; */
+  margin: 20px 1px;
+  border: 1px solid #444444;
+  min-width: 300px;
+  overflow: hidden;
+}
+
+.how-to-follow-header {
+  border-bottom: 1px solid rgb(93, 93, 93);
+  padding: 10px;
+}
+
+.how-to-follow-header > h3 {
+  padding: 5px;
+  margin: 10px 0px 0px;
+}
+
+.how-to-follow-persons {
+    border-bottom: 1px solid rgb(93, 93, 93);
+}
+.how-to-follow-persons:hover{
+    background-color: rgba(93, 93, 93, 0.061);
+}
+.persons-info {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+
+  padding: 10px;
+}
+.perosons-avtar {
+  margin-top: 10px;
+}
+
+.persons-info > .persons-info-name {
+  margin: 10px;
+  flex: 1;
+}
+
+.persons-info > button {
+  border: 0;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #1da1f2;
+  border: 1px solid #1da1f2;
+  /* rgb(29, 161, 242); */
+  background-color: rgb(25, 39, 52);
+  cursor: pointer;
+}
+
+
+.how-to-follow-show-more{
+    padding: 15px;
+
+}
+.how-to-follow-show-more:hover{
+    background-color: rgba(93, 93, 93, 0.061);
+}
+.how-to-follow-show-more > h3{
+    color: #1da1f2;
+    font-weight: 0;
+}

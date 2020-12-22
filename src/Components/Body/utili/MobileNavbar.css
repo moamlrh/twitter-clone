@@ -1,0 +1,39 @@
+.mobile-navbar {
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  width: 100vw;
+  display: none;
+}
+.icon-tab {
+  color: #5b6a79 !important;
+}
+
+.MuiTabs-root {
+  color: rgb(0, 204, 255) !important;
+  background-color: #15202b !important;
+}
+.MuiTabs-indicator{
+  display: none !important;
+}
+.Mui-selected {
+  color: rgb(0, 204, 255) !important;
+}
+.active-tabs {
+  color: rgb(0, 195, 230) !important;
+}
+.MuiTab-root{
+  background-color: #15202b !important;
+}
+@media all and (max-width: 500px) {
+  .mobile-navbar {
+    display: block;
+  }
+}
+@media all and (max-width: 300px) {
+  .mobile-navbar {
+  }
+  .MuiTabs-root {
+    /* width: 100px !important; */
+  }
+}

@@ -1,0 +1,50 @@
+.root-tabs-main {
+  width: 100%;
+  margin: 0 !important;
+}
+.tab-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(93, 93, 93);
+}
+.tab-items > * {
+  padding: 10px 20px;
+  color: rgb(136, 153, 166);
+  cursor: pointer;
+  font-size: 15px;
+}
+.tab-items > *:hover {
+  color: #1da1f2;
+  background-color: #1da0f211;
+  border-bottom: 2px solid #1da1f2;
+}
+.active-tab {
+  color: #1da1f2;
+  border-bottom: 2px solid #1da1f2;
+}
+/* ------------ Tweets -------------- */
+
+/* ------------ Tweets and replies-------------- */
+
+/* ------------ Media -------------- */
+.profile-media{
+  padding: 10px;
+  text-align: center;
+  padding-top: 20px;
+}
+.profile-media > h4{
+  font-weight: 500;
+}
+
+/* ------------ Likes -------------- */
+.profile-likes{
+  padding: 10px;
+  text-align: center;
+  padding-top: 20px;
+  
+}
+.profile-likes > h4{
+  font-weight: 500;
+}

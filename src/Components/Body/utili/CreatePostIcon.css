@@ -1,0 +1,137 @@
+.create-post-icon-container {
+  display: none;
+}
+.create-post-icon-dialog {
+  height: 100vh;
+  width: 100vw;
+}
+.create-post-icon-dialog .MuiDialog-root {
+  background-color: gray !important;
+}
+.MuiDialog-paper {
+  background-color: rgb(21, 32, 43) !important;
+  padding: 0px !important;
+}
+.cp-dialog-title {
+  margin: 0px !important;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dialog-title {
+  padding: 0px !important;
+}
+.cp-dialog-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.cp-title-icon {
+  width: 30px;
+  flex: 1;
+  align-self: center;
+}
+.cp-title-close-icon {
+  width: 30px !important   ;
+  margin-top: 8px;
+  cursor: pointer;
+  color: rgb(0, 203, 230);
+}
+.cp-dialog-title > h4 {
+  color: rgb(0, 186, 211);
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 100;
+  margin-right: 10px;
+}
+.cp-dialog-title > .cp-title-btn {
+  color: aquamarine !important;
+  background-color: rgb(20, 154, 236) !important;
+  font-weight: 600 !important;
+  padding: 0px !important ;
+  border-radius: 30px !important;
+  text-transform: capitalize !important;
+  margin: 0px 5px !important;
+}
+
+/* content-footer */
+.cp-dialog-content {
+  padding: 0px !important;
+}
+.content-footer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: rgb(21, 32, 43);
+
+}
+.content-ava-textarea {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+}
+.content-avatar {
+  margin-right: 10px;
+}
+.content-ava-textarea > div {
+  display: flex;
+  flex:1;
+}
+.content-ava-textarea > div > textarea {
+  background-color: rgb(21, 32, 43);
+  border: 0;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 10px 0px;
+  flex: 1;
+  overflow-y: scroll;
+  outline: none;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  font-family: sans-serif;
+
+}
+.content-ava-textarea > div > textarea::-webkit-scrollbar{
+    display: none;
+}
+.content-footer-icons {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(66, 66, 66, 0.801);
+  margin-bottom: 10px;
+}
+.content-footer-icons > .left-icons {
+  flex: 1;
+  color: rgb(20, 154, 236) !important;
+}
+.content-footer-icons > .left-icons > * {
+  margin-left: 10px;
+  padding-right: 15px;
+}
+
+.content-footer-icons > .right-icons {
+  display: flex;
+  margin-right: 20px;
+  color: rgb(61, 61, 61);
+  background-color: rgb(20, 153, 236);
+  border-radius: 50%;
+  border-left: 1px solid black;
+}
+@media all and (min-width: 500px) {
+  .create-post-icon-container {
+    display: none;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .create-post-icon-container {
+    display: block;
+  }
+}

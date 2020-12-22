@@ -1,0 +1,48 @@
+.swiper-people-to-follow{
+}
+.swiper-container{
+    display: flex;
+    flex-direction: column-reverse;
+    /* align-items: center; */
+    width: 95% !important;
+    padding: 10px;
+}
+.swiper-header{
+    width: 80%;
+    padding: 10px;
+}
+.swiper-header > h4 {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(0, 162, 255);
+}
+.header-bottom{
+    height: 10px;
+    width: 100%;
+    border-top: 1px solid rgba(24, 201, 255, 0.39);
+}
+.swiper-slide{
+    margin: 5px 20px;
+    border: 1px solid rgba(98, 98, 98, 0.308);
+    padding: 10px;
+}
+
+
+.swiper-container .user-info-details > p { 
+    font-size: 13px;
+}
+
+@media all and (max-width:800px){
+    .swiper-container{
+        width: 100vw;
+        display: flex;
+        justify-content: flex-end;
+    }    
+    .swiper-slide{
+        margin: 5px 10px;
+        border: 1px solid rgba(98, 98, 98, 0.308);
+        padding: 5px;
+    
+    }
+    
+}

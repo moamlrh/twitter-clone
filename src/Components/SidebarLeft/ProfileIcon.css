@@ -1,0 +1,36 @@
+.profile-icon-userinfo {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  padding: 5px 1px;
+}
+
+.profile-icon-userinfo > .avatar-info {
+  margin-left: 10px;
+  flex: 1;
+}
+
+.add-an-exiting {
+  padding: 10px 1px;
+}
+.log-out {
+  background-color: black;
+}
+.profile-icon-menu {
+  position: relative;
+  background-color: rgb(5, 255, 5);
+}
+.profile-icon-arrow-down {
+  position: absolute;
+  bottom: 28px;
+  right: 90px;
+  z-index: 9999;
+}
+
+@media only screen and (max-width: 1400px) {
+  .profile-icon-arrow-down {
+    right: -10px;
+  }
+
+}

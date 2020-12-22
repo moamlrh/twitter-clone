@@ -1,0 +1,49 @@
+.show-tweet-comments {
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+  border-bottom: 1px solid rgba(82, 82, 82, 0.856);
+}
+.st-comments {
+  display: flex;
+  flex-direction: column;
+}
+.comment-info {
+  display: flex;
+  margin: 20px 5px;
+  flex-direction: column;
+}
+.comment-userInfo {
+  display: flex;
+}
+.comment-user-info {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.comment-user-info > h4 {
+  margin-left: 10px;
+}
+.comment-user-info > p {
+  margin-left: 10px;
+}
+.comment-user-info > span {
+  margin-left: 10px;
+}
+.comment-replying{
+    display: flex;
+    margin-left: 50px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: gray;
+}
+.comment-content{
+    margin-left: 50px;
+    font-size: 19px;
+}
+.comment-reactions{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+}

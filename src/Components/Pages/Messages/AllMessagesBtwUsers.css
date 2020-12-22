@@ -1,0 +1,41 @@
+.activeUser {
+  display: flex;
+  flex-direction: column;
+}
+.activeUser > .msg {
+  align-self: flex-end;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+.activeUser > .msg > h4 {
+  font-size: 19px;
+  align-self: flex-end;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #009dff;
+}
+.activeUser > .msg > span {
+  font-size: 13px;
+  display: none;
+}
+
+.user_bro {
+  align-self: flex-start;
+  display: flex;
+  padding: 10px;
+}
+.user_bro > .msg {
+   display: flex;
+}
+.user_bro > .msg > h4 {
+  margin-left: 10px;
+  font-size: 19px;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #009dff;
+}
+.user_bro > .msg > span {
+  font-size: 13px;
+  display: none;
+}

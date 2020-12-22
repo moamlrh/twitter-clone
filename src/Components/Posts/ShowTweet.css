@@ -1,0 +1,122 @@
+.show-post {
+  height: 100%;
+  position: relative;
+}
+.show-post-header {
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+.post-header-tweet {
+  margin-top: 10px;
+  display: flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+}
+.post-header-tweet > h3 {
+  font-size: 20px;
+  flex: 1 !important;
+  
+}
+.post-header-tweet > h3 > span {
+  font-size: 16px;
+  font-weight: 100;
+  color: gray;
+}
+.st-icon {
+  margin-right: 10px;
+  cursor: pointer;
+  padding:8px;
+
+}
+.st-icon:hover {
+  background-color: rgba(86, 163, 163, 0.103);
+  border-radius: 50%;
+}
+.st-post-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.st-post-info > .post-info-header {
+  display: flex;
+  align-items: center;
+}
+.st-post-avatar-div {
+  margin: 10px;
+}
+.st-post-info > .st-post-body {
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(139, 139, 139, 0.726);
+  overflow: hidden;
+}
+.st-post-body > p {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+.st-post-body > img {
+  height: 350px;
+  width: 100%;
+  border-radius: 10px;
+}
+.st-date {
+  margin: 20px 0px;
+  color: gray;
+}
+.st-number-of-reactions {
+  border-bottom: 1px solid rgba(75, 75, 75, 0.89);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.st-number-of-reactions > p {
+  font-weight: 700;
+}
+.st-number-of-reactions > p > span {
+  color: gray;
+  margin-left: 5px;
+  font-weight: 400;
+}
+
+.st-reaction {
+  margin: 20px 0px;
+  border-bottom: 1px solid rgba(75, 75, 75, 0.89);
+  padding-bottom: 20px;
+}
+
+/* show-tweets-comments */
+.show-tweets-comments{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.input-comment{
+  width: 80%;
+  border: 0;
+  outline: none;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: #344250a4;
+  align-self: center;
+  color: white;
+  font-size: 16px;
+}
+.show-tweets-comments > button {
+  padding: 10px;
+  border-radius: 15px;
+  align-self: center;
+  background-color: #344250a4;
+  color: white;
+  border: 0;
+  transition: all .3s;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.show-tweets-comments > button:hover {
+  background-color: rgba(49, 47, 47, 0.473);
+}

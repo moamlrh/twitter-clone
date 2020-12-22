@@ -1,0 +1,153 @@
+.msg-with-user-page {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.with-user-header {
+  position: sticky;
+  z-index: 2;
+  flex: 1;
+  top: 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(116, 116, 116, 0.801);
+  background-color: rgb(21, 32, 43);
+  padding: 5px 15px;
+}
+.header-arr-back-icon {
+  margin-right: 10px;
+  color: #1da1f2;
+}
+.header-avatar-icon {
+  margin-right: 10px;
+}
+.user-info {
+  flex: 1;
+}
+.header-info-icon {
+  color: #1da1f2;
+}
+
+/*  --------------- with-user-body ----------------- */
+.with-user-body {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  cursor: pointer;
+  margin: 15px;
+  border-bottom: 1px solid rgba(82, 82, 82, 0.733);
+  border-radius: 10px;
+  align-items: center;
+}
+.with-user-body:hover {
+  background-color: rgba(116, 116, 116, 0.144);
+}
+.with-user-body > .user-name {
+  display: flex;
+}
+.with-user-body > .user-name > h3 {
+  margin-right: 10px;
+}
+.with-user-body > .user-name > span {
+  color: gray;
+}
+.with-user-body > .user-name > h3:hover {
+  text-decoration: underline;
+}
+.user-description {
+  display: flex;
+  flex-direction: column;
+}
+.user-description > p {
+  margin: 5px 15px;
+}
+.user-following {
+  display: flex;
+  padding: 10px;
+  align-self: center;
+}
+.user-following > h4 {
+  font-weight: 500;
+  margin-left: 10px;
+  color: gray;
+}
+.user-following > h4 > span {
+  font-weight: 900;
+  color: white;
+}
+.user-joined {
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+.user-joined > .user-joined-icon {
+  font-size: 17px !important;
+  margin-right: 10px;
+}
+/* --- ---------msg-with-user-messages ------------ */
+.msg-with-user-messages {
+  width: 100%;
+  background-color: rgb(21, 32, 43);
+  height: 100%;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.msg-with-user-messages:::-webkit-scrollbar {
+  display: none;
+}
+/* -------------  with-user-input ------------ */
+.with-user-input {
+  position: sticky;
+  flex: 1;
+  bottom: 0;
+  padding: 10px;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background-color: rgb(21, 32, 43);
+  border-top: 1px solid rgba(83, 83, 83, 0.568);
+}
+.with-user-input > .msg-input {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.with-user-input > .msg-input > input {
+  flex: 1;
+  padding: 8px;
+  padding-right: 40px;
+  border-radius: 30px;
+  outline: none;
+  font-size: 15px;
+  background-color: rgb(37, 51, 65);
+  color: white;
+  border: 1px solid rgba(37, 51, 65, 0);
+}
+.with-user-input > .msg-input > input:focus {
+  background-color: rgb(21, 32, 43);
+  border: 1px solid #1da1f2;
+}
+.with-user-input > .msg-input > .input-emoji-icon {
+  position: absolute;
+  right: 2%;
+  color: #1da1f2;
+}
+.input-icon {
+  color: #009dff;
+  margin-right: 10px;
+  border-radius: 50px;
+  padding: 5px;
+  cursor: pointer;
+}
+.with-user-input > .input-icon:hover {
+  background-color: #009dff44;
+}
+.input-send-icon {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #1da1f2;
+}

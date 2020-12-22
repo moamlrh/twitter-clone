@@ -1,0 +1,39 @@
+.dailog-content {
+  background-color: rgb(21, 32, 43);
+  height: 300px !important;
+}
+.dailog-header {
+  background-color: rgb(21, 32, 43);
+  padding: 5px 10px;
+  color: #1da1f2;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(109, 109, 109, 0.616);
+}
+.dailog-header > * {
+  padding: 5px;
+}
+.dailog-header > *:hover {
+  background-color: rgba(16, 227, 255, 0.205);
+  border-radius: 50px;
+}
+.dailog-create-post {
+  display: flex;
+}
+.MuiDialog-container {
+  background-color: rgba(79, 87, 97, 0.575);
+}
+.MuiDialog-paper {
+  margin:auto !important;
+  width: 800px !important;
+}
+.twitt-dailog-btn {
+  font-size: 19px;
+  padding: 10px;
+}
+.avatar-dailog {
+  width: 50px;
+  padding: 0px;
+}
+.cls-textArea-height{
+  height: 200px !important;
+}

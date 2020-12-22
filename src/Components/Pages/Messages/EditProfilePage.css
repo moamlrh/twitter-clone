@@ -1,0 +1,193 @@
+.edit-profile-dialog {
+  background-color: rgb(21, 32, 43);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color: white;
+}
+/* ------------ Title ---------------- */
+.edit-dialog-title {
+  display: flex;
+  align-items: center;
+}
+
+.title-close-icon {
+  cursor: pointer;
+  color: rgb(29, 161, 242);
+  padding: 5px;
+  margin: 10px;
+  margin-right: 40px;
+}
+.title-close-icon:hover {
+  background-color: rgba(0, 255, 242, 0.164);
+  border-radius: 50%;
+}
+.edit-dialog-title > h3 {
+  flex: 1;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+}
+.title-btn {
+  margin-right: 10px !important;
+  background-color: rgb(47, 176, 236) !important;
+  color: white !important;
+  font-weight: 900 !important;
+  border-radius: 40px !important;
+  padding: 5px 10px 0px 10px !important;
+  font-size: 14px !important;
+  width: 70px !important;
+  text-transform: capitalize !important;
+}
+
+/* ------------ Content ---------------- */
+.edit-dialog-content {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.icons-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 38%;
+}
+.camera-icon-bg {
+  cursor: pointer;
+  font-size: 30px !important ;
+  margin: 10px;
+}
+.close-icon-bg {
+  font-size: 30px !important ;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.camera-icon-img {
+  position: absolute !important;
+  cursor: pointer;
+}
+.content-bg-img {
+  width: 120%;
+  margin-left: -30px;
+  margin-top: -10px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+}
+
+.content-bg-img > img {
+  width: 100%;
+}
+.content-img {
+  position: relative;
+  margin-top: -80px;
+  height: 150px;
+  width: 27%;
+  border-radius: 50%;
+}
+.camera-icon-img {
+  position: absolute !important;
+  cursor: pointer;
+  top: 45%;
+  left: 60px;
+  z-index: 9;
+}
+.content-img > img {
+  position: absolute;
+  border-radius: 50% !important ;
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgba(92, 92, 92, 0.712);
+}
+
+/*  Inputs  */
+.content-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content-inputs > .content-all-inp {
+  background-color: rgba(43, 63, 82, 0.349) !important;
+  color: green !important;
+  margin-top: 30px;
+}
+
+.edit-profile-dialog .MuiTextField-root {
+  color: white !important;
+  border-bottom: 2px solid rgb(107, 125, 140);
+}
+.edit-profile-dialog .MuiInputLabel-root {
+  font-size: 19px !important;
+  min-width: 250px !important;
+  color: rgb(108, 153, 162) !important;
+}
+.edit-profile-dialog .Mui-focused {
+  color: rgb(61, 144, 196) !important;
+}
+.edit-profile-dialog .MuiFilledInput-input {
+  scrollbar-color: black;
+  color: white !important;
+  font-size: 20px;
+  font-weight: 6000;
+}
+.edit-profile-dialog .MuiFilledInput-input::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.edit-profile-dialog .MuiFilledInput-input {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/*  content-change-date */
+.content-change-date {
+  margin: 20px 5px;
+}
+.content-change-date > span {
+  color: gray;
+}
+.content-change-date strong {
+  color: rgb(0, 217, 255);
+  font-weight: 500;
+  font-size: 15px;
+}
+.content-change-date h3 {
+  font-weight: 500;
+  margin-top: 5px;
+}
+/* ----- Material ------ */
+.edit-profile-dialog .MuiDialog-paper {
+  background-color: rgb(21, 32, 43) !important;
+  border-radius: 20px !important;
+  border-bottom: 15px !important;
+  height: 680px;
+}
+.edit-profile-dialog .MuiDialogTitle-root {
+  background-color: rgb(21, 32, 43) !important;
+  height: 50px !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  border-bottom: 1px solid rgba(90, 126, 131, 0.801);
+  top: 0;
+  position: sticky;
+  z-index: 9;
+}
+
+@media all and (max-width: 600px) {
+  .edit-profile-dialog{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    transition: width  .1s;
+  }
+  .edit-dialog-title{
+    padding-bottom: 10px;
+  }
+}

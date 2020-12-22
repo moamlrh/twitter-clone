@@ -1,0 +1,123 @@
+/* dialog */
+.signup-dialog {
+}
+/* header */
+.signup-dialog-header {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.signup-header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(21, 32, 43);
+}
+.signup-header > .signup-header-icon {
+  flex: 1;
+  font-size: 35px;
+  color: white;
+  margin-left: 25px;
+}
+.signup-header > .header-btn-nex {
+  background-color: rgb(0, 162, 255);
+  color: white;
+  text-transform: capitalize;
+  border-radius: 30px;
+  padding: 5px;
+  font-weight: 700;
+}
+/* content */
+.signup-dialog-content {
+  color: white;
+  background-color: rgb(21, 32, 43);
+}
+.signup-contetn {
+  display: flex;
+  flex-direction: column;
+}
+.signup-contetn > h3 {
+  font-weight: 900;
+  margin: 10px 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* rgb(25, 39, 52) */
+.signup-contetn > .input-signup {
+  background-color: rgba(253, 253, 253, 0.103) !important;
+  color: white !important;
+  margin-top: 30px;
+}
+.input-name-dialog {
+  font-size: 40px !important;
+  background-color: rgba(253, 253, 253, 0.103) !important;
+}
+.signup-contetn .MuiFilledInput-input {
+  background-color: rgb(25, 39, 52) !important ;
+  color: white !important;
+  font-weight: 600 !important;
+  padding-top: 30px !important;
+  border-bottom: 3px solid rgb(143, 143, 143) !important;
+}
+.signup-contetn .MuiInputLabel-root {
+  font-size: 19px !important;
+  color: rgb(108, 153, 162) !important;
+}
+.signup-contetn .Mui-focused {
+  color: rgb(35, 185, 255) !important;
+}
+/* -------------------------------- */
+.use-insted-text {
+  color: rgb(0, 138, 218);
+  cursor: pointer;
+  font-weight: 100;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.use-insted-text:hover {
+  text-decoration: underline;
+}
+
+/*  ----------------- */
+.content-date > span {
+  color: gray;
+}
+.date-input {
+  display: flex;
+  margin-top: 25px;
+  /* margin-bottom: 130px; */
+}
+.date-input > * {
+  margin-right: 15px !important;
+}
+.select-month {
+  width: 50% !important;
+}
+.select-day {
+  width: 20% !important;
+}
+.select-year {
+  width: 30% !important;
+}
+.options {
+  background-color: rgb(21, 32, 43) !important;
+  font-weight: 900;
+}
+/* -----------  signup-with-provider  ---------------- */
+
+.signup-with-provider {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.btn-with-twitter {
+  color: white !important;
+  background-color: rgb(0, 138, 218) !important;
+  margin-right: 10px !important;
+}
+.btn-with-google {
+  color: white !important;
+  background-color: rgb(13, 29, 255) !important;
+}
