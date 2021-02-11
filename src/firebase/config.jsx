@@ -5,13 +5,13 @@ import "firebase/storage";
 import "firebase/firestore";
 
 firebase.initializeApp({
-  apiKey: "AIzaSyAvwkVHWNH7NrK-2GQuaCqt66G8TtgBz8w",
-  authDomain: "twitter-dep.firebaseapp.com",
-  databaseURL: "https://twitter-dep.firebaseio.com",
-  projectId: "twitter-dep",
-  storageBucket: "twitter-dep.appspot.com",
-  messagingSenderId: "293972267591",
-  appId: "1:293972267591:web:220f2b5f00d3d4fe5dd762",
+  apiKey: process.env.apiKey,
+  authDomain: process.env.authDomain,
+  databaseURL: process.env.databaseURL,
+  projectId: process.env.projectId,
+  storageBucket: process.env.storageBucket,
+  messagingSenderId: process.env.messagingSenderId,
+  appId: process.env.appId,
 });
 
 export const auth = firebase.auth();
